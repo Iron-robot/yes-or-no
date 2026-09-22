@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>A Question For You</title>
+<meta name="color-scheme" content="light">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -18,29 +19,6 @@
     --ink: #6B4463;
     --ink-soft: #B29AAB;
     --card: #FFFFFF;
-  }
-  :root:not([data-theme="light"]) {
-    --cream: #2C1B2E;
-    --cream-dark: #3A2440;
-    --ink: #FBEAF7;
-    --ink-soft: #CBA9C6;
-    --card: #3F2740;
-  }
-  :root[data-theme="dark"] {
-    --cream: #2C1B2E;
-    --cream-dark: #3A2440;
-    --ink: #FBEAF7;
-    --ink-soft: #CBA9C6;
-    --card: #3F2740;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) {
-      --cream: #2C1B2E;
-      --cream-dark: #3A2440;
-      --ink: #FBEAF7;
-      --ink-soft: #CBA9C6;
-      --card: #3F2740;
-    }
   }
   * { box-sizing: border-box; }
   html, body { height: 100%; margin: 0; }
